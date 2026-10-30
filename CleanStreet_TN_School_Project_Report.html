@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanStreet TN - School Project Report & Presentation Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .tamil-font {
+      font-family: 'Noto Sans Tamil', sans-serif;
+    }
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+      body {
+        background-color: white !important;
+        color: #0f172a !important;
+        font-size: 11pt;
+      }
+      .page-break {
+        page-break-before: always;
+      }
+      .card-shadow {
+        box-shadow: none !important;
+        border: 1px solid #e2e8f0 !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 antialiased p-4 md:p-8">
+
+  <!-- Floating Print / Action Header (Hidden during Print) -->
+  <header class="no-print max-w-4xl mx-auto mb-6 bg-white p-4 rounded-2xl shadow-sm border border-slate-200 flex flex-wrap items-center justify-between gap-4 sticky top-4 z-50">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-md">
+        <i class="fa-solid fa-leaf"></i>
+      </div>
+      <div>
+        <h1 class="font-bold text-slate-900 leading-tight">CleanStreet TN Project Document</h1>
+        <p class="text-xs text-slate-500">8th Grade Student Project Report & Faculty Presentation Guide</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-2">
+      <button onclick="window.print()" class="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded-xl font-semibold text-sm flex items-center gap-2 shadow-sm transition">
+        <i class="fa-solid fa-print"></i> Print / Save as PDF
+      </button>
+      <a href="http://localhost:5173" target="_blank" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-medium text-sm flex items-center gap-2 transition">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live App
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Report Container -->
+  <main class="max-w-4xl mx-auto bg-white rounded-3xl shadow-lg border border-slate-200 overflow-hidden print:border-none print:shadow-none">
+    
+    <!-- Cover Banner -->
+    <div class="bg-gradient-to-r from-emerald-800 via-teal-700 to-green-700 text-white p-8 md:p-12 relative overflow-hidden">
+      <div class="relative z-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-semibold uppercase tracking-wider mb-4 border border-white/30">
+          <i class="fa-solid fa-graduation-cap"></i> Science & Innovation Project • Class 8
+        </div>
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-2">
+          CleanStreet TN
+        </h1>
+        <h2 class="text-xl md:text-2xl font-medium text-emerald-100 tamil-font mb-4">
+          க்ளீன்ஸ்ட்ரீட் தமிழ்நாடு
+        </h2>
+        <p class="text-emerald-100 text-base md:text-lg italic max-w-2xl">
+          “Cleaner Streets, Healthier Communities, Greener Tamil Nadu”
+        </p>
+      </div>
+    </div>
+
+    <!-- Student & Project Details Card -->
+    <div class="p-6 md:p-10 border-b border-slate-100 bg-emerald-50/50">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div class="bg-white p-4 rounded-xl border border-emerald-100">
+          <span class="text-xs uppercase text-slate-400 font-semibold block">Student Name</span>
+          <span class="font-bold text-slate-800 text-base">Pavan</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-emerald-100">
+          <span class="text-xs uppercase text-slate-400 font-semibold block">Grade / Standard</span>
+          <span class="font-bold text-slate-800 text-base">Class 8</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-emerald-100">
+          <span class="text-xs uppercase text-slate-400 font-semibold block">Subject Area</span>
+          <span class="font-bold text-slate-800 text-base">Computer & Civic Science</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-emerald-100">
+          <span class="text-xs uppercase text-slate-400 font-semibold block">Project Link</span>
+          <a href="https://github.com/pavithra464/CleanStreetTN" target="_blank" class="font-bold text-emerald-700 hover:underline text-xs block truncate">
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-6 md:p-10 space-y-10">
+
+      <!-- Section 1: Executive Summary -->
+      <section>
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-sm">1</div>
+          <h3 class="text-xl font-bold text-slate-900">Executive Summary (What is CleanStreet TN?)</h3>
+        </div>
+        <p class="text-slate-600 leading-relaxed text-sm md:text-base mb-4">
+          <strong>CleanStreet TN</strong> is an independent, community-driven civic web application designed to help citizens and students map open garbage piles, promote segregation, and quickly route complaints directly to verified municipal helplines (such as <strong>Greater Chennai Corporation 1913</strong> and <strong>Tamil Nadu CM Helpline 1100</strong>).
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-emerald-700 font-bold text-base mb-1 flex items-center gap-2">
+              <i class="fa-solid fa-camera"></i> 1. Report
+            </div>
+            <p class="text-xs text-slate-600">Snap a photo of unattended trash, pinpoint the street on an interactive map, and submit.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-emerald-700 font-bold text-base mb-1 flex items-center gap-2">
+              <i class="fa-solid fa-hashtag"></i> 2. Track
+            </div>
+            <p class="text-xs text-slate-600">Get a unique tracking reference (<code class="bg-emerald-100 text-emerald-800 px-1 py-0.5 rounded">CSTN-YYYY-XXXXX</code>) to follow real-time progress.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="text-emerald-700 font-bold text-base mb-1 flex items-center gap-2">
+              <i class="fa-solid fa-phone-volume"></i> 3. Route
+            </div>
+            <p class="text-xs text-slate-600">Directly connect with official helplines (1913, 1100, Swachhata App) with pre-filled details.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Problem Statement & Motivation -->
+      <section>
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-sm">2</div>
+          <h3 class="text-xl font-bold text-slate-900">Problem Statement & Motivation</h3>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-4">
+          <h4 class="font-bold text-amber-900 text-sm mb-2 flex items-center gap-2">
+            <i class="fa-solid fa-triangle-exclamation text-amber-600"></i> The Problem We Observed:
+          </h4>
+          <ul class="text-xs md:text-sm text-amber-900/90 space-y-1.5 list-disc pl-5">
+            <li>Open dumpsites and overflowing waste bins cause breeding grounds for mosquitoes (dengue, malaria) and foul odors.</li>
+            <li>During the northeast monsoon in Tamil Nadu, road waste clogs stormwater drains, leading to severe street waterlogging.</li>
+            <li>Citizens often want to complain, but they don't know their ward number, official contact, or helpline.</li>
+          </ul>
+        </div>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          <strong>Why I built this:</strong> As an 8th-grade student, I wanted to prove that technology and coding can be used not just for video games, but to solve real problems right outside our school and homes. CleanStreet TN turns every resident with a smartphone into an active neighborhood caretaker.
+        </p>
+      </section>
+
+      <div class="page-break"></div>
+
+      <!-- Section 3: Key Features Walkthrough -->
+      <section>
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-sm">3</div>
+          <h3 class="text-xl font-bold text-slate-900">Key Features of the Website</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          <div class="p-5 border border-slate-200 rounded-2xl bg-white shadow-sm">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold">A</span>
+              <h4 class="font-bold text-slate-800 text-sm">Garbage Reporting Form with Photo & GPS</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Users capture photos of garbage and select categories (overflowing bin, dead animal, plastic waste). The app automatically compresses images in the browser (<5MB) so it works quickly even on slow mobile data connections.
+            </p>
+          </div>
+
+          <div class="p-5 border border-slate-200 rounded-2xl bg-white shadow-sm">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs font-bold">B</span>
+              <h4 class="font-bold text-slate-800 text-sm">Interactive Cleanliness Map (GIS)</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Built with open-source Leaflet and OpenStreetMap. Displays color-coded pins across all 38 districts of Tamil Nadu. Citizens can filter by status (Submitted, In Progress, Resolved).
+            </p>
+          </div>
+
+          <div class="p-5 border border-slate-200 rounded-2xl bg-white shadow-sm">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-7 h-7 rounded-lg bg-purple-100 text-purple-700 flex items-center justify-center text-xs font-bold">C</span>
+              <h4 class="font-bold text-slate-800 text-sm">Smart Municipal Grievance Router</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Automatically identifies if the location is in Chennai (routes to Greater Chennai Corporation 1913 / Namma Chennai App) or other districts (routes to CM Helpline 1100 and Collectorate portals).
+            </p>
+          </div>
+
+          <div class="p-5 border border-slate-200 rounded-2xl bg-white shadow-sm">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-7 h-7 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center text-xs font-bold">D</span>
+              <h4 class="font-bold text-slate-800 text-sm">Bilingual Interface (English & தமிழ்)</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              With a single click on the top navigation bar, the entire website converts into Tamil (க்ளீன்ஸ்ட்ரீட் தமிழ்நாடு), ensuring elderly citizens and Tamil-medium students can use it easily.
+            </p>
+          </div>
+
+          <div class="p-5 border border-slate-200 rounded-2xl bg-white shadow-sm">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-7 h-7 rounded-lg bg-rose-100 text-rose-700 flex items-center justify-center text-xs font-bold">E</span>
+              <h4 class="font-bold text-slate-800 text-sm">Educational Hub & Waste Quiz</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Contains 8 environmental lessons on source segregation (wet vs dry vs sanitary), plastic bans, and composting, plus an interactive quiz with instant scores for students.
+            </p>
+          </div>
+
+          <div class="p-5 border border-slate-200 rounded-2xl bg-white shadow-sm">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-7 h-7 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center text-xs font-bold">F</span>
+              <h4 class="font-bold text-slate-800 text-sm">School & Community Eco-Club Drives</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Enables school eco-clubs and neighborhood associations to post clean-up drives, recruit student volunteers, and track the kilograms of waste collected.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section 4: Technology Stack -->
+      <section>
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-sm">4</div>
+          <h3 class="text-xl font-bold text-slate-900">Technology Stack Explained</h3>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs md:text-sm border border-slate-200 rounded-xl overflow-hidden">
+            <thead class="bg-slate-100 text-slate-700 font-semibold uppercase text-xs">
+              <tr>
+                <th class="p-3 border-b">Layer</th>
+                <th class="p-3 border-b">Technology</th>
+                <th class="p-3 border-b">Why We Chose It</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100">
+              <tr>
+                <td class="p-3 font-semibold text-slate-800">User Interface</td>
+                <td class="p-3 text-emerald-700 font-mono text-xs">React 18 + TypeScript</td>
+                <td class="p-3 text-slate-600">Loads instantly without reloading the page, with strict type safety.</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold text-slate-800">Styling & Design</td>
+                <td class="p-3 text-emerald-700 font-mono text-xs">Tailwind CSS</td>
+                <td class="p-3 text-slate-600">Responsive layout that looks great on mobile phones, iPads, and PCs.</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold text-slate-800">Maps & GIS</td>
+                <td class="p-3 text-emerald-700 font-mono text-xs">Leaflet + OpenStreetMap</td>
+                <td class="p-3 text-slate-600">100% free and open-source mapping without expensive commercial API charges.</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold text-slate-800">Data Analytics</td>
+                <td class="p-3 text-emerald-700 font-mono text-xs">Recharts</td>
+                <td class="p-3 text-slate-600">Interactive pie charts and bar graphs for municipal waste trends.</td>
+              </tr>
+              <tr>
+                <td class="p-3 font-semibold text-slate-800">Database</td>
+                <td class="p-3 text-emerald-700 font-mono text-xs">Supabase & LocalStorage</td>
+                <td class="p-3 text-slate-600">PostgreSQL backend with offline demo mode so the app works anywhere.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="page-break"></div>
+
+      <!-- Section 5: Presentation Speaking Script -->
+      <section class="bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-emerald-700 text-white flex items-center justify-center font-bold text-sm">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">5-Minute Oral Presentation Script (For Pavan)</h3>
+        </div>
+
+        <div class="space-y-4 text-xs md:text-sm text-slate-700">
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <h5 class="font-bold text-emerald-800 uppercase tracking-wide text-xs mb-1">Part 1: Greeting & Introduction (30 seconds)</h5>
+            <p class="italic leading-relaxed">
+              "Respected teachers and faculty members, good morning! My name is Pavan, studying in 8th grade. Today, I am proud to present my project: <strong>CleanStreet TN (க்ளீன்ஸ்ட்ரீட் தமிழ்நாடு)</strong>. Our mission is: <em>Cleaner Streets, Healthier Communities, Greener Tamil Nadu.</em>"
+            </p>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <h5 class="font-bold text-emerald-800 uppercase tracking-wide text-xs mb-1">Part 2: Why Did I Choose This Project? (1 minute)</h5>
+            <p class="italic leading-relaxed">
+              "Every day, on our way to school, we see plastic trash, open waste piles, and clogged gutters. While people want clean streets, many do not know how or where to complain. Our Tamil Nadu government has helplines like GCC 1913 and CM Helpline 1100, but there was no simple bridge connecting citizens to them. I wanted to use coding to solve this real community issue."
+            </p>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <h5 class="font-bold text-emerald-800 uppercase tracking-wide text-xs mb-1">Part 3: Live Demonstration (2 minutes)</h5>
+            <p class="italic leading-relaxed">
+              "Let me show you how simple it is:
+              <br>1. On the <strong>Report Page</strong>, any resident can upload a photo of garbage and drop a map pin. The photo is automatically compressed to save data.
+              <br>2. When they click submit, the website gives them a unique tracking ID like <code>CSTN-2026-00042</code>.
+              <br>3. The <strong>Smart Routing Engine</strong> tells them whether to call GCC 1913 or TN 1100, and gives direct links to official portals."
+            </p>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <h5 class="font-bold text-emerald-800 uppercase tracking-wide text-xs mb-1">Part 4: School Features & Conclusion (1 minute)</h5>
+            <p class="italic leading-relaxed">
+              "Beyond complaints, we have a <strong>Learn & Quiz</strong> section where students learn waste segregation, and a <strong>Campaigns</strong> section for school eco-clubs. The entire site is fully bilingual in English and Tamil. Thank you teachers, and I would love to answer your questions!"
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6: Viva / Faculty Q&A -->
+      <section>
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-sm">6</div>
+          <h3 class="text-xl font-bold text-slate-900">Faculty Q&A (Answers to Expected Teacher Questions)</h3>
+        </div>
+
+        <div class="space-y-3 text-xs md:text-sm">
+          <div class="p-4 rounded-xl border border-slate-200 bg-white">
+            <div class="font-bold text-slate-800 mb-1">Q1: "Is this connected to the official government server?"</div>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              <strong>Answer:</strong> "No, Ma'am/Sir. CleanStreet TN is an independent civic portal. It acts as an easy-to-use bridge for citizens and empowers them with verified direct links and helplines (GCC 1913 and TN 1100), rather than acting as a replacement for the government."
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-slate-200 bg-white">
+            <div class="font-bold text-slate-800 mb-1">Q2: "What if someone uploads a prank photo or false complaint?"</div>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              <strong>Answer:</strong> "We built an <strong>Admin Moderation Page</strong> (at <code>/admin</code>). Every report can be reviewed by a teacher or moderator before it is officially verified on the public map."
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-slate-200 bg-white">
+            <div class="font-bold text-slate-800 mb-1">Q3: "Did you pay for Google Maps?"</div>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              <strong>Answer:</strong> "No, we used <strong>Leaflet and OpenStreetMap</strong>, which are open-source and free. This means our school or city can run this project with zero map licensing costs."
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-slate-200 bg-white">
+            <div class="font-bold text-slate-800 mb-1">Q4: "What is your future plan for this project?"</div>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              <strong>Answer:</strong> "In the future, I want to add AI-based image classification so that when a student snaps a photo, the app can automatically detect whether it is plastic, organic, or construction debris."
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Document Footer -->
+    <footer class="p-6 bg-slate-50 border-t border-slate-200 text-center text-xs text-slate-500">
+      CleanStreet TN • Created by Pavan (Class 8) • Academic Project 2026 • Repository: <a href="https://github.com/pavithra464/CleanStreetTN" class="text-emerald-700 underline">pavithra464/CleanStreetTN</a>
+    </footer>
+
+  </main>
+
+</body>
+</html>
