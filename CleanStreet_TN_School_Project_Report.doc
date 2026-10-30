@@ -1,0 +1,375 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+  <meta charset="utf-8">
+  <title>CleanStreet TN - School Project Report</title>
+  <!--[if gte mso 9]>
+  <xml>
+    <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>100</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+    </w:WordDocument>
+  </xml>
+  <![endif]-->
+  <style>
+    body {
+      font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+      font-size: 11.5pt;
+      line-height: 1.5;
+      color: #1e293b;
+      margin: 1.5in 1in 1in 1in;
+    }
+    h1 {
+      font-size: 24pt;
+      color: #065f46;
+      font-weight: bold;
+      margin-bottom: 4pt;
+      text-align: center;
+    }
+    .subtitle {
+      font-size: 14pt;
+      color: #047857;
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 12pt;
+    }
+    .badge {
+      text-align: center;
+      font-size: 10pt;
+      font-weight: bold;
+      color: #047857;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20pt;
+    }
+    .meta-box {
+      border: 1.5pt solid #a7f3d0;
+      background-color: #f0fdf4;
+      padding: 12pt;
+      margin-bottom: 24pt;
+      border-radius: 6pt;
+    }
+    .meta-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .meta-table td {
+      padding: 4pt 8pt;
+      font-size: 10.5pt;
+    }
+    h2 {
+      font-size: 15pt;
+      color: #0f172a;
+      border-bottom: 1.5pt solid #059669;
+      padding-bottom: 4pt;
+      margin-top: 24pt;
+      margin-bottom: 10pt;
+    }
+    h3 {
+      font-size: 12.5pt;
+      color: #065f46;
+      margin-top: 14pt;
+      margin-bottom: 4pt;
+    }
+    p, li {
+      font-size: 11pt;
+      color: #334155;
+      margin-bottom: 6pt;
+    }
+    ul, ol {
+      margin-top: 4pt;
+      margin-bottom: 10pt;
+      padding-left: 20pt;
+    }
+    .callout {
+      background-color: #f8fafc;
+      border-left: 4pt solid #059669;
+      padding: 10pt 14pt;
+      margin: 12pt 0;
+    }
+    .warning-box {
+      background-color: #fffbeb;
+      border-left: 4pt solid #d97706;
+      padding: 10pt 14pt;
+      margin: 12pt 0;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12pt 0;
+      font-size: 10.5pt;
+    }
+    table.data-table th {
+      background-color: #065f46;
+      color: #ffffff;
+      font-weight: bold;
+      text-align: left;
+      padding: 8pt 10pt;
+      border: 1pt solid #065f46;
+    }
+    table.data-table td {
+      padding: 8pt 10pt;
+      border: 1pt solid #cbd5e1;
+      vertical-align: top;
+    }
+    table.data-table tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    .script-box {
+      background-color: #f0fdf4;
+      border: 1pt solid #bbf7d0;
+      padding: 12pt;
+      margin-bottom: 12pt;
+      border-radius: 4pt;
+    }
+    .script-step {
+      font-weight: bold;
+      color: #065f46;
+      text-transform: uppercase;
+      font-size: 9.5pt;
+      margin-bottom: 4pt;
+    }
+    .script-text {
+      font-style: italic;
+      color: #1e293b;
+    }
+    .qa-card {
+      border: 1pt solid #e2e8f0;
+      background-color: #ffffff;
+      padding: 10pt 12pt;
+      margin-bottom: 8pt;
+      border-radius: 4pt;
+    }
+    .qa-q {
+      font-weight: bold;
+      color: #0f172a;
+      margin-bottom: 4pt;
+    }
+    .qa-a {
+      color: #334155;
+    }
+    .code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background-color: #f1f5f9;
+      padding: 2pt 4pt;
+      border-radius: 3pt;
+      font-size: 10pt;
+      color: #0f172a;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER HEADER -->
+  <div class="badge">Middle School Science, Computer & Environmental Innovation Project</div>
+  <h1>CleanStreet TN (க்ளீன்ஸ்ட்ரீட் தமிழ்நாடு)</h1>
+  <div class="subtitle">“Cleaner Streets, Healthier Communities, Greener Tamil Nadu”</div>
+
+  <div class="meta-box">
+    <table class="meta-table">
+      <tr>
+        <td width="50%"><strong>Student Name:</strong> Pavan</td>
+        <td width="50%"><strong>Class / Grade:</strong> Class 8</td>
+      </tr>
+      <tr>
+        <td><strong>Project Title:</strong> CleanStreet TN Web Portal</td>
+        <td><strong>Subject:</strong> Computer Science & Civic Science</td>
+      </tr>
+      <tr>
+        <td colspan="2"><strong>GitHub Repository:</strong> https://github.com/pavithra464/CleanStreetTN</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- SECTION 1 -->
+  <h2>1. Executive Summary</h2>
+  <p>
+    <strong>CleanStreet TN</strong> is an independent, community-driven web platform developed to tackle the widespread problem of open garbage dumping, street litter, and overflowing waste bins across Chennai and Tamil Nadu.
+  </p>
+  <p>
+    The platform empowers residents and school students to become proactive guardians of their neighborhoods through a simple 3-step workflow:
+  </p>
+  <div class="callout">
+    <strong>The 3-Step CleanStreet TN Cycle:</strong><br>
+    <strong>1. Report:</strong> Residents capture a photo proof of trash and drop a pin on an interactive map with GPS.<br>
+    <strong>2. Track:</strong> The system automatically issues a unique tracking ID (e.g., <span class="code">CSTN-2026-00042</span>).<br>
+    <strong>3. Route:</strong> The platform directs the complaint to verified municipal bodies like the <strong>Greater Chennai Corporation (1913)</strong>, <strong>Namma Chennai App</strong>, or <strong>TN CM Helpline (1100)</strong>.
+  </div>
+
+  <!-- SECTION 2 -->
+  <h2>2. Problem Statement & Student Motivation</h2>
+  <div class="warning-box">
+    <strong>The Problem in our Neighborhoods:</strong>
+    <ul>
+      <li>Open garbage dumps attract stray animals, breed disease-spreading mosquitoes (dengue, malaria), and emit foul odors.</li>
+      <li>During heavy rains, plastic waste and debris choke stormwater drains, leading to severe street waterlogging.</li>
+      <li>Although the government provides helplines, citizens often do not know which official helpline or ward office covers their street.</li>
+    </ul>
+  </div>
+  <p>
+    <strong>Why I Created This Project:</strong> As an 8th-grade student, I wanted to show that coding and computer skills can solve real-life challenges in our local community. Rather than just complaining about unclean streets, CleanStreet TN gives every citizen a practical digital tool to take action.
+  </p>
+
+  <div class="page-break"></div>
+
+  <!-- SECTION 3 -->
+  <h2>3. Key Features of the Website</h2>
+
+  <h3>A. Citizen Reporting Form with Smart Photo Compression</h3>
+  <p>
+    Citizens can upload photo proof of waste piles. To prevent slow uploads on mobile connections, the website compresses photos directly in the browser to under 5MB before submitting. Users can select categories such as:
+  </p>
+  <ul>
+    <li>Open Garbage Dump (திறந்தவெளி குப்பை)</li>
+    <li>Overflowing Dustbin (நிரம்பி வழியும் குப்பைத்தொட்டி)</li>
+    <li>Plastic Waste Concentration (பிளாஸ்டிக் கழிவுகள்)</li>
+    <li>Hazardous Construction Debris & Dead Animals (கட்டுமான கழிவுகள்)</li>
+  </ul>
+
+  <h3>B. Interactive GIS Cleanliness Map</h3>
+  <p>
+    Built with open-source Leaflet and OpenStreetMap, the map displays color-coded markers for waste reports across all 38 districts of Tamil Nadu. Citizens can filter markers by district, severity, or resolution status.
+  </p>
+
+  <h3>C. Verified Municipal Routing Engine</h3>
+  <p>
+    CleanStreet TN does not replace the government; instead, it serves as an intelligent bridge. Based on whether the user's location is in Chennai or another district, it suggests:
+  </p>
+  <ul>
+    <li><strong>Greater Chennai Corporation (GCC):</strong> Direct link to 1913 Helpline, Namma Chennai Mobile App, and GCC online portal.</li>
+    <li><strong>Tamil Nadu Municipalities & Corporations:</strong> CM Helpline (1100), District Collectorate grievance portals.</li>
+    <li><strong>National Portal:</strong> Ministry of Housing and Urban Affairs (Swachhata App).</li>
+  </ul>
+
+  <h3>D. 100% Bilingual Support (English & தமிழ்)</h3>
+  <p>
+    With one click on the top menu, the entire website instantly translates into Tamil, making it accessible to elderly residents, municipal workers, and Tamil-medium students.
+  </p>
+
+  <h3>E. Student Educational Hub & Waste Segregation Quiz</h3>
+  <p>
+    Features 8 illustrated environmental lessons on:
+  </p>
+  <ul>
+    <li>Source segregation: Green (Wet/Bio), Blue (Dry/Recyclable), Red (Sanitary/Hazardous).</li>
+    <li>Single-use plastic ban awareness in Tamil Nadu.</li>
+    <li>Home and school composting techniques.</li>
+    <li>Monsoon disease prevention and stagnant water removal.</li>
+    <li>An interactive 5-question waste quiz with instant scores and confetti celebration.</li>
+  </ul>
+
+  <h3>F. School Eco-Club Campaigns</h3>
+  <p>
+    Allows students and Resident Welfare Associations (RWAs) to register cleanliness drives, recruit student volunteers, and track the kilograms of plastic collected.
+  </p>
+
+  <!-- SECTION 4 -->
+  <h2>4. Technology Architecture</h2>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th width="25%">Layer</th>
+        <th width="35%">Technology Used</th>
+        <th width="40%">Role in Project</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Frontend Interface</strong></td>
+        <td>React 18 + TypeScript + Vite</td>
+        <td>Fast single-page application that works seamlessly on computers, phones, and tablets.</td>
+      </tr>
+      <tr>
+        <td><strong>Styling & Design</strong></td>
+        <td>Tailwind CSS</td>
+        <td>Accessible colors, mobile-responsive layout, and modern cards.</td>
+      </tr>
+      <tr>
+        <td><strong>Mapping & GIS</strong></td>
+        <td>Leaflet & OpenStreetMap</td>
+        <td>Open-source map integration without expensive commercial API costs.</td>
+      </tr>
+      <tr>
+        <td><strong>Analytics Charts</strong></td>
+        <td>Recharts</td>
+        <td>Visual pie charts and bar graphs displaying waste categories and district distribution.</td>
+      </tr>
+      <tr>
+        <td><strong>Database & Storage</strong></td>
+        <td>Supabase & LocalStorage</td>
+        <td>Stores complaints, photos, and campaigns with automatic offline fallback.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="page-break"></div>
+
+  <!-- SECTION 5 -->
+  <h2>5. 5-Minute Faculty Presentation Script (For Pavan)</h2>
+  <p><em>Use this exact guide when presenting the project to teachers and judges:</em></p>
+
+  <div class="script-box">
+    <div class="script-step">Step 1: Introduction (30 Seconds)</div>
+    <div class="script-text">
+      "Respected teachers and faculty members, good morning! My name is Pavan from Class 8. Today, I am proud to present my Computer and Environmental Science project: <strong>CleanStreet TN (க்ளீன்ஸ்ட்ரீட் தமிழ்நாடு)</strong>. Our mission is: <em>Cleaner Streets, Healthier Communities, Greener Tamil Nadu.</em>"
+    </div>
+  </div>
+
+  <div class="script-box">
+    <div class="script-step">Step 2: The Real-Life Problem (1 Minute)</div>
+    <div class="script-text">
+      "Whenever we walk to school, we see plastic wrappers, open waste heaps, and overflowing dustbins. When rain falls, these piles clog stormwater drains and cause street waterlogging. Even though Tamil Nadu has official complaint helplines like GCC 1913 and CM Helpline 1100, common people don't know where to report. I decided to build a website that makes reporting garbage simple, visual, and transparent."
+    </div>
+  </div>
+
+  <div class="script-box">
+    <div class="script-step">Step 3: Live Demonstration (2 Minutes)</div>
+    <div class="script-text">
+      "Here is how CleanStreet TN works in 3 easy steps:<br>
+      <strong>1. Report:</strong> A resident clicks 'Report Issue', snaps a photo of the garbage, and selects their district on our map. Our app compresses the photo so it uploads quickly.<br>
+      <strong>2. Track:</strong> The system gives them a unique ticket number like <code>CSTN-2026-00042</code> so they can track resolution status.<br>
+      <strong>3. Route:</strong> Our smart routing engine shows the exact official phone numbers for GCC 1913, the Namma Chennai App, and the CM 1100 helpline."
+    </div>
+  </div>
+
+  <div class="script-box">
+    <div class="script-step">Step 4: School Education & Conclusion (1 Minute)</div>
+    <div class="script-text">
+      "Beyond complaints, we have an <strong>Education Hub</strong> where students learn waste segregation and take an interactive quiz, plus a <strong>Campaigns Page</strong> for school eco-club clean-up drives. The website works fully in both English and Tamil. Thank you teachers! I am ready for your questions."
+    </div>
+  </div>
+
+  <!-- SECTION 6 -->
+  <h2>6. Faculty Viva Q&A (Answers to Teacher Questions)</h2>
+
+  <div class="qa-card">
+    <div class="qa-q">Q1: "Is this website an official Tamil Nadu government portal?"</div>
+    <div class="qa-a"><strong>Answer:</strong> "No, Ma'am/Sir. CleanStreet TN is an independent civic engagement tool. It acts as an easy-to-use bridge for citizens and routes their complaints to official government channels like GCC 1913 and CM Helpline 1100."</div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q2: "What if someone uploads a prank or invalid photo?"</div>
+    <div class="qa-a"><strong>Answer:</strong> "We built a dedicated <strong>Admin Moderation Page</strong> (`/admin`). Every complaint is verified with before-and-after photo evidence before it is published on the public map."</div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q3: "Did you have to pay for map licenses?"</div>
+    <div class="qa-a"><strong>Answer:</strong> "No, we used <strong>Leaflet and OpenStreetMap</strong>, which are open-source and free. This ensures our project can be adopted by any school or municipality with zero software licensing costs."</div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q4: "What did you learn while making this project?"</div>
+    <div class="qa-a"><strong>Answer:</strong> "I learned how to code real-world interactive web applications using React, how GPS coordinates place pins on a map, how to compress image files in the browser, and most importantly, how technology can help keep our environment clean."</div>
+  </div>
+
+  <!-- FOOTER -->
+  <br><br>
+  <div style="border-top: 1pt solid #cbd5e1; padding-top: 8pt; text-align: center; font-size: 9.5pt; color: #64748b;">
+    CleanStreet TN • Student Project by Pavan (Class 8) • Academic Year 2026-2027 • GitHub: pavithra464/CleanStreetTN
+  </div>
+
+</body>
+</html>
